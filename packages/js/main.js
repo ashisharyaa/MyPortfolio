@@ -110,8 +110,13 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
   keyboard: true, */
 });
 
+
+
 /*==================== TESTIMONIAL ====================*/
+
+
 let swiperTestimonial = new Swiper(".testimonial__container", {
+  cssMode: true,
   loop: true,
   grabCursor: true,
   spaceBetween: 48,
@@ -132,7 +137,9 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
   keyboard: true, */
 });
 
+
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+
 const sections = document.querySelectorAll("section[id]");
 
 function scrollActive() {
