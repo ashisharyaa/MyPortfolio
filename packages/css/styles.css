@@ -448,6 +448,28 @@ img {
   justify-content: center;
 }
 
+.vertical-flex-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 25px;
+}
+
+img {
+  padding: 5px;
+}
+
+.certification__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: var(--mb-0-75);
+}
+
+.certification__subtitle {
+  font-size: var(--small-font-size);
+}
+
 /*==================== SKILLS ====================*/
 
 .skills__container {
@@ -877,6 +899,7 @@ img {
 .swiper-container .swiper-pagination-testimonial {
   bottom: 0;
 }
+
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
