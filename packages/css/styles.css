@@ -1005,6 +1005,11 @@ img {
   color: #fff;
 }
 
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
 /*========== SCROLL UP ==========*/
 .scrollup {
   position: fixed;
