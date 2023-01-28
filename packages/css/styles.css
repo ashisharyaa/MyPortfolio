@@ -1006,8 +1006,8 @@ img {
 }
 
 .fa-youtube {
-  background: #bb0000;
-  color: white;
+  color: #fff;
+  font-size:24px;
 }
 
 /*========== SCROLL UP ==========*/
@@ -1304,6 +1304,7 @@ img {
     }
     .footer__copy {
       margin-top: 4.5rem;
+      color: rgb(128, 128, 128);
     }
   }
 }
